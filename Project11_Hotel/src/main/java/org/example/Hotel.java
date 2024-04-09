@@ -1,6 +1,7 @@
 package org.example;
 
 import base_operations.OpenFileCommand;
+import base_operations.SaveAsFileCommand;
 import interfaces.BaseCommand;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -20,6 +21,8 @@ public class Hotel {
          */
 
         BaseCommand openFile = new OpenFileCommand("data1.txt");
+        BaseCommand saveAsFile = new SaveAsFileCommand("data2.txt");
         openFile.operation();
+        saveAsFile.operation();
         }
     }
