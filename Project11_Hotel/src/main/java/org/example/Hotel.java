@@ -1,5 +1,6 @@
 package org.example;
 
+import base_operations.Command;
 import base_operations.OpenFileCommand;
 import base_operations.SaveAsFileCommand;
 import interfaces.BaseCommand;
@@ -20,9 +21,7 @@ public class Hotel {
         System.out.println(reservation2);
          */
 
-        BaseCommand openFile = new OpenFileCommand("data1.txt");
-        BaseCommand saveAsFile = new SaveAsFileCommand("data2.txt");
-        openFile.operation();
-        saveAsFile.operation();
+        Command.operation(new OpenFileCommand("data1.txt"));
+        Command.operation(new SaveAsFileCommand("data2.txt"));
         }
     }
