@@ -2,26 +2,36 @@ package org.example;
 
 import base_operations.Command;
 import base_operations.OpenFileCommand;
-import base_operations.SaveAsFileCommand;
-import interfaces.BaseCommand;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Scanner;
+
 public class Hotel {
     public static void main(String[] args) {
-        /*
-        HotelRoom room101 = new HotelSingleRoom(101);
-        Guest guest1 = new Guest(1, "John Doe", 30, "john@example.com", "+1234567890", "USA");
-        RoomGuest reservation1 = new RoomGuest(room101, guest1);
-        System.out.println(reservation1);
+        Scanner scanner = new Scanner(System.in);
+        String command = "";
 
-        HotelRoom room201 = new HotelDoubleRoom(201);
-        Guest guest2 = new Guest(2, "Alice Smith", 25, "alice@example.com", "+1987654321", "UK");
-        RoomGuest reservation2 = new RoomGuest(room201, guest2);
-        System.out.println(reservation2);
-         */
+        while(true) {
+            command = scanner.nextLine();
 
-        Command.operation(new OpenFileCommand("data1.txt"));
-        Command.operation(new SaveAsFileCommand("data2.txt"));
+            if(command.equalsIgnoreCase("exit")) {
+                System.out.println("Exiting the program...");
+                break;
+            }
+
+            String[] words = command.split("\\s+");
+
+            if(words[0].equalsIgnoreCase("open")) {
+                if (words.length > 1) {
+                    String filePath = command.substring(words[0].length()).trim();
+                    Command.operation(new OpenFileCommand(filePath));
+
+                    //все остальное меню здесь!!!
+
+                    //
+                } else {
+                    System.out.println("No file specified to open.");
+                }
+            }
         }
     }
+}
