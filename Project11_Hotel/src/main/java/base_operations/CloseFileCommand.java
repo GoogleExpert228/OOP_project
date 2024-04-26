@@ -7,6 +7,6 @@ public class CloseFileCommand extends FileCommand {
 
     @Override
     public void operation() {
-        System.out.println("File closed: " + getFileName());
+        System.out.println("Successfully closed: " + getFileName());
     }
 }
