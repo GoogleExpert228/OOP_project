@@ -1,18 +1,34 @@
 package Rooms;
 
 public abstract class HotelRoom {
-    private int Room_Id;
+    private int roomNumber;
     private int bedrooms;
-    public HotelRoom(int room_Id, int bedrooms) {
-        Room_Id = room_Id;
+    private boolean isAvailable;
+    public HotelRoom(int roomNumber, int bedrooms, boolean isAvailable) {
+        this.roomNumber = roomNumber;
         this.bedrooms = bedrooms;
     }
+
+    public abstract String toXML();
 
     @Override
     public String toString() {
         return "HotelRoom{" +
-                "Room_Id=" + Room_Id +
+                "Room_Id=" + roomNumber +
                 ", bedrooms=" + bedrooms +
+                ", bedrooms=" + isAvailable +
                 '}';
+    }
+
+    public int getRoomNumber() {
+        return roomNumber;
+    }
+
+    public int getBedrooms() {
+        return bedrooms;
+    }
+
+    public boolean getIsAvailable() {
+        return isAvailable;
     }
 }

@@ -5,9 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65961d75-2e1d-4509-a7da-187ec60ce4bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SomePackage/XmlGetterFromFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exm1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdfsdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/HotelDoubleRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/HotelDoubleRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/HotelFamilyRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/HotelFamilyRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/HotelLuxuryRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/HotelLuxuryRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/HotelRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/HotelRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/HotelSingleRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/HotelSingleRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base_operations/CloseFileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base_operations/CloseFileCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base_operations/OpenFileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base_operations/OpenFileCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rooms/HotelDoubleRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rooms/HotelDoubleRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rooms/HotelFamilyRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rooms/HotelFamilyRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rooms/HotelLuxuryRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rooms/HotelLuxuryRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rooms/HotelRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rooms/HotelRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rooms/HotelSingleRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rooms/HotelSingleRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base_operations/CloseFileCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base_operations/CloseFileCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base_operations/OpenFileCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base_operations/OpenFileCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Hotel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,0 +1,17 @@
+<hotel>
+    <room>
+        <number>101</number>
+        <available>true</available>
+        <note>Spacious room with a view</note>
+    </room>
+    <room>
+        <number>102</number>
+        <available>false</available>
+        <note>Under maintenance</note>
+    </room>
+    <room>
+        <number>103</number>
+        <available>true</available>
+        <note></note>
+    </room>
+</hotel>

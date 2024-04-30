@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hotel>
+<room>
+   <number>101</number>
+   <bedrooms>1</bedrooms>
+  <available>false</available>
+</room>
+<room>
+   <number>102</number>
+   <bedrooms>1</bedrooms>
+  <available>false</available>
+</room>
+</hotel>

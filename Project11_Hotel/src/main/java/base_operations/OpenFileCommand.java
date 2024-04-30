@@ -28,7 +28,7 @@ public class OpenFileCommand extends FileCommand {
                     setFileContent(content);
                 }
 
-                System.out.println(getFileContent());
+                System.out.println(getFileContent() + "\n");
             }
         } catch (IOException e) {
             System.out.println("Error: " + e);
